@@ -18,5 +18,24 @@
 
 body
 {
-    margin: auto;
+    margin: 0;
+}
+
+form{
+	display: flex;
+	align-items: center;
+	margin-bottom: 2em;
+}
+.marker{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 51px;
+	background-color: #f2f2f2;
+	border-radius: 1em 0 0 1em;
+}
+.fa-map-marker-alt{
+	width: 13px;
+	height: 18px;
 }
