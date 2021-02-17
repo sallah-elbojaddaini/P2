@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylsheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+    <link rel="stylsheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
      <title>Reservia</title>
 </head>
 
@@ -25,7 +25,7 @@
 
     <section class="in">
 
-        <div class="presentation">
+        <!-- <div class="presentation"> -->
             <div>
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             </div>
@@ -37,11 +37,16 @@
 
     <!-- RECHERCHE -->
         
-        <div class="recherche">
-            <form class="search">
-                <label class="loupe" for="loupe"><i class="fas fa-map-marker-alt"></i></label>
+        <div>
+            <form>
+            <div class="mm">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+                <!-- <label class="fas fa-search" for="loupe"></label>
                 <input class="zone-texte" type="text" name="recherche" value="Marseille,France"/>
-                <button type="submit">Rechercher</button>
+                <button type="submit">Rechercher</button> -->
+                    <input id="seat" type="text" name="text" value="Marseille, France">
+			   		<input id="rec" type="submit" value="Rechercher">
             </form>
         </div>
         
