@@ -34,7 +34,7 @@
 .logo
 {
     width: 95px;
-    padding-top: 22px;
+    padding-top: 5spx;
     margin-left: 50px;
 }
 
@@ -221,6 +221,8 @@ a
     color: #0065fc;
 }
 
+/* POINT INFORMATION */
+
 .pointinformation
 {
     display: flex;
@@ -247,3 +249,55 @@ a
 	font-size: 0.8em;
 }
 
+/* CORPS DE LA PAGE */
+
+.hebergements
+{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* HEBERGEMENTS À MARSEILLE */
+
+.ma
+{
+    width: 780px;
+	background-color: #f2f2f2;
+	border-radius: 1em;
+	margin-left: 50px;
+	padding: 25px 40px 0 40px;
+}
+
+.boximages
+{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.hebergementsnumber
+{
+    height: 200px;
+	width: 280px;
+	background-color: white;
+	border-radius: 1em;
+	margin-bottom: 2em;
+	box-shadow:5px 5px 30px #e4e3e3;
+}
+
+.boxpictures img
+{
+    height: 120px;
+	width: 270px;
+	border-radius: 1em 1em 0 0;
+	margin: 5px;
+	object-fit: cover;
+}
+
+.boxpictures h3
+{
+    margin: 1px 0 0 15px;
+}
+
+.
