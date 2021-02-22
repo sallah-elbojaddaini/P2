@@ -24,7 +24,7 @@
 }
 /*Logo Reservia/ Nav*/
 
-.header
+header
 {
 	display: grid;
 	grid-template-columns: 1fr 650px 1fr 1fr 1fr;
@@ -34,7 +34,7 @@
 .logo
 {
     width: 95px;
-    padding-top: 5spx;
+    padding-top: 5px;
     margin-left: 50px;
 }
 
@@ -48,7 +48,20 @@
     border-top: 2px solid #0065FC;
 }
 
-.activ
+.z.heb
+{
+	color: black;
+    text-decoration: none;
+	grid-column: 3;
+    text-align: center;
+    color: #0065FC;
+    padding-top: 2em;
+    margin-bottom: 2em;
+    border-top: 2px solid #0065FC;
+    
+}
+
+.z.activ
 {
     grid-column: 4;
     text-align: center;
@@ -107,7 +120,7 @@ a
     margin-bottom: 16px;
 } */
 
-.form
+form
 {
     display: flex;
     align-items: center;
@@ -300,4 +313,3 @@ a
     margin: 1px 0 0 15px;
 }
 
-.
