@@ -12,19 +12,20 @@
 } */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
-/* #bloc_page
-{
-    margin: 0;
-	font-family: ralewayregular, sans-serif;
-    
-} */
 *
 {
     font-family: Raleway, sans-serif;
 }
-/*Logo Reservia/ Nav*/
 
-header
+body
+{
+	padding: 10;
+	margin: 10;
+	max-width: 100%;
+}
+
+
+nav
 {
 	display: grid;
 	grid-template-columns: 1fr 650px 1fr 1fr 1fr;
@@ -108,23 +109,29 @@ a
     color: black;
 }
 
-/* SECTION IN*/
+
 
 .in
 {
     margin-left: 50px;
 }
 
-/* .presentation h2
+.presentation h2
 {
-    margin-bottom: 16px;
-} */
+    margin-top: 50px;
+    
+} 
 
 form
 {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 2em; */
+	position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 40px;
 }
 
 .mm
@@ -169,7 +176,7 @@ form
 	cursor: not-allowed;
 }
 
-/* FILTRES */
+
 #boxfiltres
 {
     display: flex;
@@ -234,7 +241,7 @@ form
     color: #0065fc;
 }
 
-/* POINT INFORMATION */
+
 
 .pointinformation
 {
@@ -262,36 +269,33 @@ form
 	font-size: 0.8em;
 }
 
-/* CORPS DE LA PAGE */
 
-.hebergements
+
+section
 {
-    display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	display: flex;
 }
 
-/* HEBERGEMENTS À MARSEILLE */
-
-.ma
+article
 {
-    width: 780px;
-	background-color: #f2f2f2;
-	border-radius: 1em;
-	margin-left: 50px;
-	padding: 25px 40px 0 40px;
+	width: 75%;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+	
 }
 
-.boximages
+.boxhebergements
 {
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hebergementsnumber
 {
-    height: 200px;
+	height: 200px;
 	width: 280px;
 	background-color: white;
 	border-radius: 1em;
@@ -311,5 +315,61 @@ form
 .boxpictures h3
 {
     margin: 1px 0 0 15px;
+}
+
+.boxpictures p
+{
+	margin: 1px 0 1px 15px;
+}
+
+.etoiles
+{
+	margin: 0 0 0 15px;
+}
+
+.fa-star
+{
+	color: #0065fc;
+}
+
+.gray
+{
+	color: #dad7d7;
+}
+
+.footer-hebergments
+{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+
+
+.populaires
+{
+	display: fle;
+	width: 25%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.headerpopulaires
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.fa-chart-line
+{
+	font-size: 1.5em;
+}
+
+.brick
+{
+
 }
 
