@@ -23,7 +23,6 @@ header
 .logo
 {
 	width: 95px;
-	padding-top: 22px;
 }
 
 .z.heb
@@ -40,32 +39,17 @@ header
 {
 	grid-column: 4;
 	text-align: center;
+	padding-top: 2em;
+	margin-bottom: 2em;
 }
 
 .enreg
 {
-	margin-left:0;
+	
 	grid-column: 5;
-	text-decoration: none;
 	text-align: center;
 	color: #0065fc;
-}
-
-.z
-{
-	color: black;
-	text-decoration: none;
-	padding-top: 2em;
-	margin-bottom: 2em;
-}
-
-.z:focus
-{
-	padding-top: 2em;
-	margin-bottom: 2em;
-	border-top: 2px solid #0065fc;
-	color: #0065fc;
-	cursor: pointer;
+	font-weight: bold;
 }
 
 .z:hover
@@ -92,14 +76,13 @@ a
 
 .presentation h2
 {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 form
 {
     display: flex;
-    align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .mm
@@ -107,22 +90,22 @@ form
     display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 50px;
-	height: 51px;
+	width: 55px;
+	height: 55px;
 	background-color: #f2f2f2;
 	border-radius: 1em 0 0 1em;
+	cursor: not-allowed;
 }
 
 .fa-map-marker-alt
 {
-    width: 12px;
 	height: 15px
 }
 
 #seat
 {
     width: 218px;
-	height: 45px;
+	height: 49px;
 	font-size: 1em;
 	font-weight: bold;
 	border: 2px solid #f2f2f2;
@@ -134,8 +117,8 @@ form
 #rec
 {
     width: 120px;
-	height: 50px;
-	font-size: 15px;
+	height: 55px;
+	font-size: 16px;
 	color: white;
 	font-weight: bold;
 	background-color: #0065fc;
@@ -149,14 +132,12 @@ form
 .filtres
 {
     display: flex;
-	flex-direction: row;
 	align-items: center;
 }
 
 .boxfiltres
 {
     display: flex;
-	flex-direction: row;
 	align-items: center;
 	border:2px solid #f2f2f2;
 	border-radius:2em;
@@ -166,23 +147,21 @@ form
 
 .boxfiltres:hover
 {
-    background-color: #ffffff;
-	border: 2px groove #0e0e44;
+    background-color: #d10f0f;
+	border: 2px dotted #99b811;
 	cursor: not-allowed;
 }
 
 .boxfiltres a
 {
     font-weight: bold;
-	height: 46px;
-	align-items: center;
-	padding: 0 22px 0 13px;
+	padding: 0 22px 0 14px;
 }
 
 .fil
 {
-    border-radius: 100%;
-	background-color: #dceaff;
+    border-radius: 2em;
+	background-color: #e2eeff;
 	width: 50px;
 	height: 50px;
 	display: flex;
@@ -213,8 +192,7 @@ form
 #boxfiltres
 {
 	display: flex;
-	flex-direction: row;
-	margin-left: 1em;
+	margin-left: 2em;
 }
 
 /* POINT INFORMATION */
@@ -222,18 +200,17 @@ form
 .pointinformation
 {
     display: flex;
-	flex-direction: row;
 	align-items: center;
-	margin: 19px 0 25px 0;
+	margin: 20px 0 25px 0;
 }
 
 .iconeinformation
 {
     display: flex;
-	border-radius: 100%;
+	border-radius: 2em;
 	border: 1px solid #f2f2f2 ;
-	width: 23px;
-	height: 23px;
+	width: 24px;
+	height: 25px;
 	justify-content: center;
 	align-items: center;
 	margin-right: 10px;
@@ -251,7 +228,6 @@ form
 .hebergements
 {
     display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 }
 
@@ -278,7 +254,7 @@ form
 	background-color: white;
 	border-radius: 1em;
 	margin-bottom: 2em;
-	box-shadow:5px 5px 16px #e4e4e4;
+	box-shadow: 10px 10px 15px #e8e5e5;
 }
 
 .pic
@@ -292,17 +268,17 @@ form
 
 .hod h3
 {
-	margin: 3px 0 0 11px;
+	margin: 1px 0 1px 12px;
 }
 
 .hod p
 {
-	margin: 0.25em 0 4px 11px;
+	margin: 3px 0 2px 12px;
 }
 
 .hod div
 {
-	margin:0 0 0px 11px;
+	margin:0 0 0 12px;
 }
 
 .fa-star
@@ -321,7 +297,6 @@ form
 .plus
 {
 	font-weight: bold;
-	font-size: 1em;
 }
 
 /* LES PLUS POPULAIRES */
@@ -338,7 +313,6 @@ aside
 .headerpopulaires
 {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -355,13 +329,13 @@ aside
 	background-color: white;
 	border-radius: 1em;
 	margin-bottom: 2em;
-	box-shadow:5px 5px 16px #e4e4e4;
+	box-shadow: 10px 10px 15px #e8e5e5;
 }
 
 .boxypictures
 {
-	height: 134px;
-	width: 127px;
+	height: 135px;
+	width: 125px;
 	border-radius: 1em 0 0 1em;
 	object-fit: cover;
 	float: left;
@@ -370,17 +344,19 @@ aside
 
 .boxytext h3
 {
-	margin: 9px 0 0 148px;
+	margin: 1px 0 0 148px;
+	padding-top: 10px;
 }
 
 .boxytext p
 {
-	margin: 0.3em 0 41px 148px; 
+	margin: 10px 0 30px 148px; 
 }
 
 .stars
 {
 	margin: 0 0 0 148px;
+	font-size: 12px;
 }
 
 /* ACTIVITES À MARSEILLE */
@@ -388,11 +364,6 @@ aside
 .activites
 {
 	margin:0 50px 0 50px;
-}
-
-.boxport
-{
-	margin-right: 5px;
 }
 
 .boxactivites
@@ -407,16 +378,16 @@ aside
 
 .boxportpictures
 {
-	width: 302px;
+	width: 300px;
 	height: 445px;
-	box-shadow:5px 5px 16px #e4e4e4;
+	box-shadow: 10px 10px 15px #e8e5e5;
 	border-radius: 1em;
-	margin: 0em;
+	margin: 0;
 }
 
 .boxportpictures img
 {
-	width: 302px;
+	width: 300px;
 	height: 390px;
 	object-fit: cover;
 	border-radius: 1em 1em 0 0;
@@ -426,16 +397,16 @@ aside
 
 .boxpomeguespictures
 {
-	width: 302px;
-	height: 236px;
-	box-shadow:5px 5px 16px #e4e4e4;
+	width: 300px;
+	height: 235px;
+	box-shadow: 10px 10px 15px #e8e5e5;
 	border-radius: 1em;
 	margin:0 0 2.75em 0;
 }
 
 .boxpomeguespictures img
 {
-	width: 302px;
+	width: 300px;
 	height: 180px;
 	object-fit: cover;
 	border-radius: 1em 1em 0 0;
@@ -445,15 +416,15 @@ aside
 
 .boxfrioulpictures
 {
-	width: 302px;
+	width: 300px;
 	height: 165px;
-	box-shadow:5px 5px 16px #e4e4e4;
+	box-shadow: 10px 10px 15px #e8e5e5;
 	border-radius: 1em;
 	margin:0 0 3em 0;
 }
 .boxfrioulpictures img{
-	width: 302px;
-	height: 109px;
+	width: 300px;
+	height: 110px;
 	object-fit: cover;
 	border-radius: 1em 1em 0 0;
 }
@@ -462,16 +433,16 @@ aside
 
 .boxgardepictures
 {
-	width: 302px;
+	width: 300px;
 	height: 195px;
-	box-shadow:5px 5px 16px #e4e4e4;
+	box-shadow: 10px 10px 15px #e8e5e5;
 	border-radius: 1em;
 	margin:0 0 2.5em 0;
 }
 
 .boxgardepictures img
 {
-	width: 302px;
+	width: 300px;
 	height: 140px;
 	object-fit: cover;
 	border-radius: 1em 1em 0 0;
@@ -481,17 +452,17 @@ aside
 
 .boxlongchampspictures
 {
-	width: 302px;
+	width: 300px;
 	height: 210px;
-	box-shadow:5px 5px 16px #E4E4E4;
+	box-shadow: 10px 10px 15px #e8e5e5;
 	border-radius: 1em;
 	margin:0 0 3em 0;
 }
 
 .boxlongchampspictures img
 {
-	width: 302px;
-	height: 153px;
+	width: 300px;
+	height: 155px;
 	object-fit: cover;
 	border-radius: 1em 1em 0 0;
 }
@@ -506,26 +477,74 @@ figcaption
 
 footer
 {
-	background-color: #f2f2f2;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	height: 218px;
-}
-
-footer h3
-{
-	margin-bottom: 17px;
+	background-color: #f2f2f2;
+	height: 220px;
 }
 
 footer div
 {
 	display: flex;
 	flex-direction: column;
-	margin:24px 175px 0 50px;
+	margin: 25px 175px 0 50px;
+}
+
+footer h3
+{
+	margin-bottom: 20px;
 }
 
 footer a
 {
-	margin-bottom: 19px;
+	margin-bottom: 20px;
+}
+
+@media screen AND (max-width:1023px) 
+{
+	header
+	{
+	margin-left: 50px;
+	display: grid;
+	grid-template-columns: 1fr 40px 1fr 1fr 0;
+	align-items: center;
+	}
+
+	.boxfiltres {
+		display: flex;
+		align-items: center;
+		border: 2px solid #f2f2f2;
+		border-radius: 2em;
+		margin-right: 0.5em;
+		height: 46px;
+		width: 200px;
+	
+}
+
+@media screen AND (max-width:767px)
+{
+	body
+	{
+		width: auto;
+		height: auto;
+		margin: auto;
+	}
+	header
+	{
+	margin-left: 50px;
+	display: grid;
+	grid-template-columns: 1fr 40px 1fr 1fr 0;
+	align-items: center;
+	}
+
+	.boxfiltres {
+		display: flex;
+		align-items: center;
+		border: 2px solid #f2f2f2;
+		border-radius: 2em;
+		margin-right: 0.5em;
+		height: 46px;
+		width: 200px;
+
 }
