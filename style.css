@@ -124,7 +124,7 @@ form
 /* FILTRES */
 .filtres
 {
-	/* display: flex; */
+	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
@@ -316,11 +316,11 @@ aside
 {
 	margin: 9px 0 0 148px;
 }
-.p--margin
+.popi
 {
 	margin: 0.3em 0 41px 148px; 
 }
-.p--margin2
+.popo
 {
 	margin: 0.3em 0 41px 148px;
 }
@@ -537,7 +537,7 @@ footer a
 		height: 50px;
 	}
 	/* FILTRES */
-	.filter
+	.filtres
 	{
 		flex-direction: column;
 		align-items: flex-start;
@@ -634,7 +634,7 @@ footer a
 	}
 }
 
-@media screen and (min-width: 540px) and (max-width: 1024px)
+@media screen and (min-width:540px) and (max-width: 1024px)
 {
 	header,section
 	{
