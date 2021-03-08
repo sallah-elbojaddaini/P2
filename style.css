@@ -51,13 +51,13 @@ header
 .z
 {
 	color: black;
-	padding-top: 2rem;
-	margin-bottom: 2rem;
+	padding-top: 2em;
+	margin-bottom: 2em;
 }
 .z:hover
 {
-	padding-top: 2rem;
-	margin-bottom: 2rem;
+	padding-top: 2em;
+	margin-bottom: 2em;
 	border-top: 2px solid var(--bleureservia);
 	color: var(--bleureservia);
 	cursor: pointer;
@@ -72,7 +72,7 @@ form
 {
 	display: flex;
 	align-items: center;
-	margin-bottom: 2rem;
+	margin-bottom: 2em;
 }
 .marker
 {
@@ -82,7 +82,7 @@ form
 	width: 50px;
 	height: 51px;
 	background-color: var(--grisreservia);
-	border-radius: 1em 0 0 1rem;
+	border-radius: 1em 0 0 1em;
 }
 .fa-map-marker-alt
 {
@@ -93,12 +93,12 @@ form
 {
 	width: 218px;
 	height: 45px;
-	font-size: 1rem;
+	font-size: 1em;
 	font-weight: bold;
 	border: 2px solid var(--grisreservia);
 	border-right: none;
 	border-left: none;
-	padding-left: 1rem;
+	padding-left: 1em;
 }
 #rec
 {
@@ -109,7 +109,7 @@ form
 	font-weight: bold;
 	background-color: var(--bleureservia);
 	border:none;
-	border-radius: 0 1rem 1rem 0;
+	border-radius: 0 1em 1em 0;
 	cursor: not-allowed;
 }
 #iconeloupe
@@ -129,8 +129,8 @@ form
 	flex-direction: row;
 	align-items: center;
 	border:2px solid var(--grisreservia);
-	border-radius:2rem;
-	margin-right: 1.5rem;
+	border-radius:2em;
+	margin-right: 1.5em;
 	height: 46px;
 }
 .logoicone
@@ -161,7 +161,7 @@ form
 {
 	display: flex;
 	flex-direction: row;
-	margin-left: 1rem;
+	margin-left: 1em;
 }
 .fa-money-bill-wave
 {
@@ -201,7 +201,7 @@ form
 #logoinfo
 {
 	color: #0065fc;
-	font-size: 0.8rem;
+	font-size: 0.8em;
 }
 /* CORPS DE LA PAGE */
 /* HEBERGEMENTS À MARSEILLE */
@@ -215,7 +215,7 @@ form
 {
 	width: 780px;
 	background-color: var(--grisreservia);
-	border-radius: 1rem;
+	border-radius: 1em;
 	margin-left: 50px;
 	padding: 25px 40px 0 40px;
 }
@@ -230,15 +230,15 @@ form
 	height: 210px;
 	width: 245px;
 	background-color: white;
-	border-radius: 1rem;
-	margin-bottom: 2rem;
+	border-radius: 1em;
+	margin-bottom: 2em;
 	box-shadow:5px 5px 16px var(--grisombre);
 }
 .photo1
 {
 	height: 114px;
 	width: 236px;
-	border-radius: 1rem 1rem 0 0;
+	border-radius: 1em 1em 0 0;
 	margin: 5px;
 	object-fit: cover;
 }
@@ -248,7 +248,7 @@ form
 }
 .hebergementsmarseille p
 {
-	margin: 0.25rem 0 4px 11px;
+	margin: 0.25em 0 4px 11px;
 }
 .hebergementsmarseille div
 {
@@ -275,7 +275,7 @@ aside
 	width: 340px;
 	height: 625px;
 	background-color: var(--grisreservia);
-	border-radius: 1rem;
+	border-radius: 1em;
 	margin-right: 50px;
 	padding: 25px 40px 0 40px;
 }
@@ -295,15 +295,15 @@ aside
 	height: 155px;
 	width: 343px;
 	background-color: white;
-	border-radius: 1rem;
-	margin-bottom: 2rem;
+	border-radius: 1em;
+	margin-bottom: 2em;
 	box-shadow:5px 5px 16px var(--grisombre);
 }
 .photo2
 {
 	height: 145px;
 	width: 127px;
-	border-radius: 1rem 0 0 1rem;
+	border-radius: 1em 0 0 1em;
 	object-fit: cover;
 	float: left;
 	margin: 5px;
@@ -315,11 +315,11 @@ aside
 }
 .popi
 {
-	margin: 0.3rem 0 41px 150px; 
+	margin: 0.3em 0 41px 150px; 
 }
 .popo
 {
-	margin: 0.3rem 0 41px 150px;
+	margin: 0.3em 0 41px 150px;
 }
 .stars
 {
@@ -347,15 +347,15 @@ aside
 	width: 302px;
 	height: 445px;
 	box-shadow:5px 5px 16px var(--grisombre);
-	border-radius: 1rem;
-	margin: 0rem;
+	border-radius: 1em;
+	margin: 0em;
 }
 .boxportpictures img
 {
 	width: 302px;
 	height: 390px;
 	object-fit: cover;
-	border-radius: 1rem 1rem 0 0;
+	border-radius: 1em 1em 0 0;
 }
 /* FORT DE POMÈGUES */
 .boxpomeguespictures
@@ -363,15 +363,15 @@ aside
 	width: 302px;
 	height: 236px;
 	box-shadow:5px 5px 16px var(--grisombre);
-	border-radius: 1rem;
-	margin:0 0 2.75rem 0;
+	border-radius: 1em;
+	margin:0 0 2.75em 0;
 }
 .boxpomeguespictures img
 {
 	width: 302px;
 	height: 180px;
 	object-fit: cover;
-	border-radius: 1rem 1rem 0 0;
+	border-radius: 1em 1em 0 0;
 }
 /* ILES DU FRIOUL */
 
@@ -380,15 +380,15 @@ aside
 	width: 302px;
 	height: 165px;
 	box-shadow:5px 5px 16px var(--grisombre);
-	border-radius: 1rem;
-	margin:0 0 3rem 0;
+	border-radius: 1em;
+	margin:0 0 3em 0;
 }
 .boxfrioulpictures img
 {
 	width: 302px;
 	height: 109px;
 	object-fit: cover;
-	border-radius: 1rem 1rem 0 0;
+	border-radius: 1em 1em 0 0;
 }
 /* NOTRE DAME DE LA GARDE */
 .boxgardepictures
@@ -396,15 +396,15 @@ aside
 	width: 302px;
 	height: 195px;
 	box-shadow:5px 5px 16px var(--grisombre);
-	border-radius: 1rem;
-	margin:0 0 2.5rem 0;
+	border-radius: 1em;
+	margin:0 0 2.5em 0;
 }
 .boxgardepictures img
 {
 	width: 302px;
 	height: 140px;
 	object-fit: cover;
-	border-radius: 1rem 1rem 0 0;
+	border-radius: 1em 1em 0 0;
 }
 /* PARC LONGCHAMPS */
 .boxlongchamppictures
@@ -412,20 +412,20 @@ aside
 	width: 302px;
 	height: 210px;
 	box-shadow:5px 5px 16px var(--grisombre);
-	border-radius: 1rem;
-	margin:0 0 3rem 0;
+	border-radius: 1em;
+	margin:0 0 3em 0;
 }
 .boxlongchamppictures img
 {
 	width: 302px;
 	height: 153px;
 	object-fit: cover;
-	border-radius: 1rem 1rem 0 0;
+	border-radius: 1em 1em 0 0;
 }
 figcaption
 {
 	font-weight: bold;
-	margin: 1rem 0 1rem 1rem;
+	margin: 1em 0 1em 1em;
 }
 /* FOOTER */
 footer
@@ -541,7 +541,7 @@ a
 		background-color: var(--bleureservia);
 		position: relative;
 		right: 20px;
-		border-radius: 1rem;
+		border-radius: 1em;
 		align-items: center;
 		justify-content: center;
 		width: 50px;
@@ -587,7 +587,7 @@ a
 	{
 		width: auto;
 		margin-left: 20px;
-		margin-top: 1rem;
+		margin-top: 1em;
 		background-color:white;
 		padding: 0;
 	}
@@ -688,7 +688,7 @@ a
 	.logo
 	{
 		grid-column: 1;
-		margin-left: 7rem;
+		margin-left: 7em;
 		margin-top: 20px;
 	}
 	.z.heb
@@ -711,8 +711,8 @@ a
 	{
 		grid-column: 2;
 		text-align: end;
-		margin-right: 8rem;
-		margin-top: 2rem;
+		margin-right: 8em;
+		margin-top: 2em;
 	}
 	.z:hover
 	{
@@ -728,7 +728,7 @@ a
 	.presentation p
 	{
 		text-align: center;
-		margin-right: 6rem;
+		margin-right: 6em;
 	}
 	form
 	{
@@ -742,20 +742,20 @@ a
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		margin-left: 4rem;
+		margin-left: 4em;
 	}
 	.filtres h2
 	{
-		margin-left: 8.2rem;
+		margin-left: 8.2em;
 	}
 	#boxfiltres
 	{
 		flex-wrap: wrap;
-		margin-right: 2rem;
+		margin-right: 2em;
 	}
 	.boxicone
 	{
-		margin:0 1rem 1rem 1rem;
+		margin:0 1em 1em 1em;
 		display: flex;
 		flex-direction: row;
 	}
@@ -763,7 +763,7 @@ a
 	.pointinformation
 	{
 		justify-content: center;
-		margin-right: 4rem;
+		margin-right: 4em;
 	}
 /* CORPS DE LA PAGE */
 /* HEBERGEMENTS À MARSEILLE */
@@ -834,7 +834,7 @@ a
 	/* ACTIVITÉS À MARSEILLE */
 	#boxactivites
 	{
-		margin-left: 0rem;
+		margin-left: 0em;
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
@@ -854,11 +854,11 @@ a
 	}
 	.pop
 	{
-		margin-left:2rem;
+		margin-left:2em;
 	}
 	.ass
 	{
-		margin-right: 2rem;
+		margin-right: 2em;
 	}
 	footer div
 	{
