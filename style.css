@@ -673,7 +673,7 @@ a
 
 /* RESPONSIVE IPAD */
 
-@media screen and (min-width:501px) and (max-width: 1024px)
+@media screen and (min-width:540px) and (max-width: 1024px)
 {
 /* LOGO/NAV */
 	header
@@ -744,10 +744,6 @@ a
 		align-items: flex-start;
 		margin-left: 4em;
 	}
-	.filtres h2
-	{
-		margin-left: 8.2em;
-	}
 	#boxfiltres
 	{
 		flex-wrap: wrap;
@@ -810,10 +806,6 @@ a
 	{
 		justify-content: space-around;
 	}
-	.headerpopulaires h2
-	{
-		margin-right: 450px;
-	}
 	.boxpopulaires
 	{
 		display: flex;
@@ -865,3 +857,4 @@ a
 		margin:0 0 0 2%;
 	}
 }
+
